@@ -12,6 +12,7 @@ public class learnjava {
 		System.out.println("Enter the 2nd number");
 		int num2=sc.nextInt();
 		lj.add2numbers(num1,num2);
+		lj.mul2numbers(num1, num2);
 	}
 	private void add2numbers(int a,int b) {
 		long sum=a+b;
@@ -20,6 +21,10 @@ public class learnjava {
 	private void sub2numbers(int a, int b) {
 		long sub=a-b;
 		System.out.println("Subtraction of 2 numbers is "+sub);
+	}
+	private void mul2numbers(int a, int b) {
+		long mul=a-b;
+		System.out.println("Multiplication of 2 numbers is "+mul);
 	}
 
 }
