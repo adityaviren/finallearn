@@ -16,10 +16,6 @@ public class learnjava {
 	private void add2numbers(int a,int b) {
 		long sum=a+b;
 		System.out.println("Addition of 2 numbers is "+sum);
-	}
-	private void sub2numbers(int a, int b) {
-		long sub=a-b;
-		System.out.println("Subtraction of 2 numbers is "+sub);
-	}
+	}	
 
 }
