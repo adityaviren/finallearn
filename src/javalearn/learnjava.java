@@ -19,7 +19,7 @@ public class learnjava {
 	}
 	private void sub2numbers(int a, int b) {
 		long sub=a-b;
-		System.out.println("Subtraction of 2 numbers is "+sub);
+		System.out.println("Subtraction of 2 Numbers is "+sub);
 	}
 
 }
